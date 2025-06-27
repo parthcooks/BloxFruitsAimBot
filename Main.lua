@@ -10,7 +10,7 @@ if not game:IsLoaded() then game.Loaded:Wait() end
 if not syn or not protectgui then getgenv().protectgui = function() end end
 
 -- URL репозитория
-local REPO_URL = "https://raw.githubusercontent.com/ShutUpRimuru/BloxFruitsAimBot/main/"
+local REPO_URL = "https://raw.githubusercontent.com/ShutUpRimuru/BloxFruitsAimBot/refs/heads/main/"
 
 -- Система загрузки модулей с кешированием
 local ModuleCache = {}
